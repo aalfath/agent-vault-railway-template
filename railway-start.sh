@@ -90,4 +90,4 @@ stop_boot
 
 # ---- Real server ----
 log "starting Agent Vault: UI/API on :$PORT, credential proxy on :$MITM_PORT (private network)"
-exec agent-vault server --host "::" --port "$PORT" --mitm-port "$MITM_PORT"
+exec agent-vault server --host "" --port "$PORT" --mitm-port "$MITM_PORT"
